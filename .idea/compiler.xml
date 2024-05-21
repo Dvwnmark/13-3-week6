@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="registry" />
         <module name="product" />
+        <module name="RequestProductService" />
         <module name="user" />
         <module name="gateway" />
       </profile>
@@ -16,6 +17,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="RequestProductService" options="-parameters" />
       <module name="gateway" options="-parameters" />
       <module name="product" options="-parameters" />
       <module name="registry" options="-parameters" />
